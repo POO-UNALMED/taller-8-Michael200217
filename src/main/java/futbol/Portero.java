@@ -25,6 +25,6 @@ public class Portero extends Futbolista {
 				" con el dorsal " + this.getDorsal() + ". Le han marcado " + this.getGolesRecibidos());
 	}
 	public int compareTo(Portero portero) {
-		return(this.getGolesRecibidos()-portero.getGolesRecibidos());
+		return(portero.getGolesRecibidos()-this.getGolesRecibidos());
 	}
 }
